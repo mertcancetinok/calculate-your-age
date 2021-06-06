@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fcfbfb;
+}
+.container{
+    margin: auto;
+    width: 65%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4em;
+}
+h3{
+    margin-top: 3em;
+    margin-bottom: 0.4em;
+}
+.night-mode img{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+.date-picker{
+    cursor: pointer;
+    padding: 0.6rem;
+    width: 30%;
+}
